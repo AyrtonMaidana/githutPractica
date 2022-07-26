@@ -124,6 +124,44 @@ body{
   color: #fff;
 }
 
+/* animaciones*/
+
+.animation-padre{
+  padding: 20px 5px;
+}
+
+
+.animation-hijo{
+  height: 80px;
+  width: 80px;
+  margin: 5px ;
+  background: #FF00FF;
+  animation-name: desplazarse;
+  animation-duration: 4s;
+  position: relative;
+  border-radius: 10px ;
+  border: 5px solid black;
+}
+
+@keyframes desplazarse {
+      
+       0% {
+        
+        left: 0;
+        background-color: #181818;
+       }
+       50% {
+        background-color: aqua;
+    
+       }
+       100% {
+        background: blue;
+        left: 80%;
+       }
+      
+  
+}
+
     
 
 
