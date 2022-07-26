@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,600;0,900;1,100&family=Open+Sans:wght@300&family=Roboto:wght@100;300;500;900&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+  background-image: url(/img/gym3.jpg); 
+}
+
+.navbar{
+  background-color: #FF00FF;
+  display: grid;
+  grid-template-columns: repeat(8,1fr);
+  align-items: center;
+}
+
+.navbar  .logo{
+  width: 70px;
+  height: 70px;
+  grid-column: 2/3;
+}
+
+.navbar .menu{
+  grid-column: 4/7;
+  display: flex;
+  justify-content: space-around;
+}
+.navbar .menu li{
+  list-style: none; /*borramos las viñetas*/
+
+  
+}
+.navbar .menu a{
+  text-decoration: none;
+  color: #181818;
+  cursor: pointer;
+}
+.navbar .menu a:hover{
+  color: #fff;
+}
+
+.navbar .menu-bar{
+  display: none;
+}
+.navbar .shopping { 
+  grid-column: 8/9;
+}
+
+
+/* section main*/
+
+.hero{
+  height: 80vh;
+  background-image: linear-gradient(rgba 16,16,16, .8, rgba 16,16,16, .8,) , url(/img/gym2.jfif); 
+  background-size: cover;
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(10 , 1fr, 1fr);
+  grid-template-rows: repeat(8,1fr, 1fr);
+}
+.hero .info-content{
+  grid-column: 7/10;
+  grid-row: 3/7;
+  color:#FF00FF;
+
+}
+.hero h3{
+  font-weight: 300;
+  font-size: 1.5em;
+  font-family: 'Montserrat', sans-se sans-serif;
+}
+
+.hero h1{
+  font-size: 5em;
+  color: #FF00FF;
+}
+
+.hero p{
+  font-weight: 300;
+  font-family: 'Montserrat', sans-se sans-serif
+
+}
+
+.hero .btn{
+  font-size: 1em;
+  background: none;
+  color: #FF00FF;
+  padding: 10px 20px;
+  border: 1px solid #FF00FF;
+  border-radius: 25px ;
+  margin-top: 10px;
+}
+
+.hero .btn:hover{
+  background: black;
+  color: #FF00FF;
+}
+
+.footer{
+  display: grid;
+  height: 80px;
+  align-items: center;
+  background-color:#FF00FF;
+  grid-template-areas: 
+  "listen-online follow-me social-network";
+}
+
+.footer .listen-online{
+  grid-template-areas: listen-online;
+  display: flex;
+  justify-content: center;
+  background-color: #FF00FF;
+  padding: 25px;
+}
+
+.footer .social-network .fab{
+  margin-right: 15px;
+}
+.footer .social-network .fab:hover{
+  color: #fff;
+}
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,600;0,900;1,100&family=Open+Sans:wght@300&family=Roboto:wght@100;300;500;900&display=swap');
+
+
+
